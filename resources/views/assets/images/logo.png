@@ -1,0 +1,297 @@
+
+
+<!DOCTYPE html>
+<html lang="ja" class=" dark-mode" style="background-color: #2f2f2f;">
+
+<head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <meta name="viewport" content="width=1080">
+
+
+
+        <meta name="referrer" content="no-referrer">
+
+        <link rel="stylesheet" type="text/css" media="all" href="https://assets.backlog.jp/playassets/1.41.3/script/jquery/tooltipster.bundle.min.css">
+
+
+        <meta name='robots' content='noindex,nofollow' />
+        <meta name="format-detection" content="telephone=no">
+
+        <!-- Start SmartBanner configuration -->
+        
+                <meta name="smartbanner:title" content="Backlog">
+                <meta name="smartbanner:author" content="Nulab Inc.">
+                <meta name="smartbanner:price" content="FREE">
+                <meta name="smartbanner:price-suffix-apple" content=" - On the App Store">
+                <meta name="smartbanner:price-suffix-google" content=" - In Google Play">
+                <meta name="smartbanner:icon-apple" content="https://assets.backlog.jp/playassets/1.41.3/images/common/backlog_icon.svg">
+                <meta name="smartbanner:icon-google" content="https://assets.backlog.jp/playassets/1.41.3/images/common/backlog_icon.svg">
+                <meta name="smartbanner:button" content="VIEW">
+                <meta name="smartbanner:button-url-apple" content="https://apps.apple.com/app/id863872037">
+                <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=backlog.android">
+                <meta name="smartbanner:enabled-platforms" content="android,ios">
+                <meta name="smartbanner:disable-positioning" content="true">
+        
+        <!-- End SmartBanner configuration -->
+
+
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="expires" content="-1" />
+
+        <link rel="shortcut icon" href="/favicon.ico" /> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="assets" href="https://assets.backlog.jp/playassets/1.41.3" />
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/common-libs.js"></script>
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/jquery/jquery-ui-1.12.1.custom.min.js"></script>
+
+        
+        <script type="text/javascript">
+            jQuery(function() {
+                if (!Backlog.isIOSOrAndroidDevice()) {
+                    return;
+                }
+                jQuery('html').addClass('touch-device');
+                if (Backlog.isIOSOrAndroidDevice()) {
+                    jQuery('.comment-editor.comment-editor--full').removeClass('-fixed-footer');
+                }
+            });
+        </script>
+
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/stop-scroll-propagation.js"></script>
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/jquery/tooltipster.bundle.min.js"></script>
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/issue-card.js"></script>
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/user-card.js"></script>
+
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/backlog/base_p.js"></script>
+
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/jquery/jquery.timeago.js"></script>
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/jquery/jquery.timeago.ja.js"></script>
+
+        
+        <script src="https://assets.backlog.jp/playassets/1.41.3/script/svg4everybody.min.js"></script>
+        <script>
+        
+        
+        
+            if( window.addEventListener ){
+                window.addEventListener('load', svg4everybody);
+            }else if( window.attachEvent ){
+                window.attachEvent('onload', svg4everybody);
+            }
+        </script>
+
+        
+<script type="text/javascript">
+        Backlog = Backlog || {};
+        Backlog.resource = Backlog.resource || {};
+
+        
+        Backlog.resource['project.id'] = parseInt('');
+        Backlog.resource['project.key'] = '';
+        Backlog.resource['project.name'] = '';
+        Backlog.resource['project.icon'] = '/SpaceImage.action';
+
+        
+        Backlog.resource['loginUser.id'] = parseInt('485718');
+        Backlog.resource['loginUser.name'] = '小美濃 拓';
+        Backlog.resource['loginUser.mailAddress'] = 'conect.the.dots314@gmail.com';
+        Backlog.resource['loginUser.hasNulabAccount'] = true;
+
+        Backlog.resource['space.id'] = parseInt('5254');
+        Backlog.resource['space.spaceKey'] = 'mm0311';
+</script>
+
+
+<script type="text/javascript">
+    Backlog.resource = Backlog.resource || {};
+    
+    Backlog.resource['btn.star'] = 'スター';
+    
+    Backlog.resource['lbl.emoticon.people'] = '表情';
+    
+    Backlog.resource['lbl.emoticon.nature'] = '自然';
+    
+    Backlog.resource['lbl.emoticon.objects'] = 'もの';
+    
+    Backlog.resource['lbl.emoticon.places'] = '場所';
+    
+</script>
+
+
+
+        <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/introjs/intro.js"></script>
+
+        
+        
+        
+          <script src="https://assets.backlog.jp/playassets/1.41.3/script/smartbanner.min.js"></script>
+        
+        
+            <script>
+                    document.addEventListener('smartbanner.view', function () {
+                        mixpanel.track_links(".smartbanner--android .smartbanner__button", "Mobile App Banner Android Clicked", {});
+                        mixpanel.track_links(".smartbanner--ios .smartbanner__button", "Mobile App Banner iOS Clicked", {});
+                    });
+            </script>
+        
+
+        <style type="text/css">
+            .change-password-user-id {
+                width: 280px;
+                cursor: default;
+                border-color: #999;
+                background-color: #eee;
+                box-shadow: none;
+                transition-timing-function: ease-in-out;
+                transition-duration: .15s;
+                transition-property: border-color,box-shadow,background-color;
+                vertical-align: middle;
+                border: solid 1px #999;
+                border-radius: 4px;
+                padding: 0em 1em;
+            }
+        </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+    <script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/backlog/mixpanel.js"></script>
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+            0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+        for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+            MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+        var $window = jQuery(window);
+        mixpanel.init('5d781fbc28cc582d3086bd978e64a4e6', {
+            "persistence": "localStorage"}, 'apps');
+        mixpanel.init('5be8b628b7103858164142d02cb38347', {
+            "persistence": "localStorage",
+            "inapp_link_new_window": true,
+            "loaded": function(){
+                $window.trigger("MixpanelLoaded", [true, false, true, '']);
+            }
+        });
+        mixpanel.set_config({
+            secure_cookie: true
+        });
+    </script>
+    <!-- end Mixpanel -->
+
+
+        
+            
+<script type="text/javascript" src="https://assets.backlog.jp/playassets/1.41.3/script/backlog/intercom.js"></script>
+<script>
+
+    
+
+
+    jQuery(function() {
+        var intercomTrigger = jQuery('#intercom_trigger');
+        intercomTrigger.on("click", function (e) {
+            if (!intercomTrigger.hasClass("is_active")) {
+                intercomTrigger.addClass("is_active");
+                Intercom("show");
+            } else {
+                intercomTrigger.removeClass("is_active");
+                Intercom("hide");
+            }
+        });
+    });
+</script>
+<!-- end Intercom -->
+
+
+        
+
+        
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+    
+            jQuery.cookie("onboardingUser", "false", 1)
+            jQuery.cookie("isAdmin", "false", 1)
+            jQuery.cookie("isOverseas", "false", 1)
+            jQuery.cookie("plan", "41", 1)
+            jQuery.cookie("canInviteNulabAccount", "false", 1)
+            jQuery.cookie("isNulabAppsIntegratedSpace", "true", 1)
+
+
+var _vwo_code = (function () {
+    var account_id = 267090,
+            settings_tolerance = 2000,
+            library_tolerance = 2500,
+            use_existing_jquery = false,
+            /* DO NOT EDIT BELOW THIS LINE */
+            f = false, d = document;
+    return {
+        use_existing_jquery: function () {
+            return use_existing_jquery;
+        }, library_tolerance: function () {
+            return library_tolerance;
+        }, finish: function () {
+            if (!f) {
+                f = true;
+                var a = d.getElementById('_vis_opt_path_hides');
+                if (a) a.parentNode.removeChild(a);
+            }
+        }, finished: function () {
+            return f;
+        }, load: function (a) {
+            var b = d.createElement('script');
+            b.src = a;
+            b.type = 'text/javascript';
+            b.innerText;
+            b.onerror = function () {
+                _vwo_code.finish();
+            };
+            d.getElementsByTagName('head')[0].appendChild(b);
+        }, init: function () {
+            settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance);
+            var a = d.createElement('style'),
+                    b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',
+                    h = d.getElementsByTagName('head')[0];
+            a.setAttribute('id', '_vis_opt_path_hides');
+            a.setAttribute('type', 'text/css');
+            if (a.styleSheet) a.styleSheet.cssText = b; else a.appendChild(d.createTextNode(b));
+            h.appendChild(a);
+            this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random());
+            return settings_timer;
+        }
+    };
+}());
+_vwo_settings_timer = _vwo_code.init();
+    
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+
+    <title>logo.png</title>
+</head>
+<body>
+    <img src="/ViewWikiAttachmentImage.action?optAttachmentId=602742" alt="logo.png"/>
+</body>
+
+</html>
+<!-- random-length HTML comment: UWt6YiDHYvhgRMq9wMzM4A80zfAEhQV2mFy8lzE8kje1vIzhVosPoqDcJDgqT0i33V0eK4avb5kMBZsWCYjoCkGJmlz5bWxUplwxdNi4GHEHeucgI9LIkPRM0FFPb0hGbU32fawjf1o9lGesEpyo4GytJ18ksgoH0fAT3w2WleWNj03ndrPVvDE42DckjGqXkoobYgyA8ILh8EKZtZufazZT221Z6hweLa6k4si20tayviLe859YuXpkNh9HCtmOJg -->
